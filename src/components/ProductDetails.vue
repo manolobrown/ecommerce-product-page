@@ -2,6 +2,7 @@
 import ProductPrice from "./ProductPrice.vue";
 import ButtonIcon from "./ButtonIcon.vue";
 import IconCart from "./icons/IconCart.vue";
+import ProductQty from "./ProductQty.vue";
 </script>
 <template>
   <div class="container mx-auto px-6 py-6">
@@ -20,6 +21,8 @@ import IconCart from "./icons/IconCart.vue";
     </p>
 
     <ProductPrice class="mb-6" />
+
+    <ProductQty class="mb-4" />
 
     <ButtonIcon
       class="bg-[#FF7E1B] flex items-center justify-center w-full rounded-[10px] text-white font-bold gap-4 p-5"

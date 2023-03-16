@@ -86,7 +86,7 @@ const navItems = [
       <div class="flex items-center gap-x-[22.18px] md:gap-x-[46.18px]">
         <ButtonIcon>
           <template #icon>
-            <IconCart />
+            <IconCart class="fill-[#69707D]" />
           </template>
         </ButtonIcon>
         <div class="account max-w-[24px] md:max-w-[50px]">
