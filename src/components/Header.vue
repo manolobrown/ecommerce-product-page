@@ -32,7 +32,7 @@ const navItems = [
 <template>
   <div class="container mx-auto">
     <header
-      class="px-6 py-5 flex justify-between items-center md:px-0 md:pt-7 md:pb-[34px] md:border-b md:border-b-[#E4E9F2]"
+      class="px-6 py-5 flex justify-between items-center md:px-0 md:pt-7 md:pb-[34px] md:border-b md:border-b-[#E4E9F2] md:mb-[90px]"
     >
       <div class="flex items-baseline gap-x-4 md:gap-x-14">
         <ButtonIcon
@@ -70,10 +70,10 @@ const navItems = [
                 <IconMenuClose />
               </template>
             </ButtonIcon>
-            <ul class="flex flex-col gap-5 md:gap-8 md:flex-row">
+            <ul class="flex flex-col gap-5 md:gap-5 md:flex-row lg:gap-8">
               <li v-for="navItem in navItems">
                 <a
-                  class="text-[18px] font-bold md:text-dark-grayish-blue"
+                  class="text-[18px] font-bold hover:text-dark-blue md:font-normal md:text-dark-grayish-blue"
                   href="{{navItem.url}}"
                   >{{ navItem.name }}</a
                 >

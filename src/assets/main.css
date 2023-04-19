@@ -9,4 +9,7 @@
   a {
     @apply text-dark-blue;
   }
+  .container {
+    @apply sm:px-4;
+  }
 }

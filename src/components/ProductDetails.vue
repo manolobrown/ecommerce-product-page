@@ -22,15 +22,17 @@ import ProductQty from "./ProductQty.vue";
 
     <ProductPrice class="mb-6" />
 
-    <ProductQty class="mb-4" />
+    <div class="md:flex md:items-center md:gap-x-5">
+      <ProductQty class="mb-4 md:mb-0" />
 
-    <ButtonIcon
-      class="bg-[#FF7E1B] flex items-center justify-center w-full rounded-[10px] text-white font-bold gap-4 p-5"
-    >
-      <template #icon>
-        <IconCart class="fill-white" />
-      </template>
-      <template #text-right> Add to cart </template>
-    </ButtonIcon>
+      <ButtonIcon
+        class="bg-[#FF7E1B] flex items-center justify-center w-full rounded-[10px] text-white font-bold gap-4 p-5"
+      >
+        <template #icon>
+          <IconCart class="fill-white" />
+        </template>
+        <template #text-right> Add to cart </template>
+      </ButtonIcon>
+    </div>
   </div>
 </template>
