@@ -11,13 +11,13 @@ const count = ref(0);
   >
     <ButtonIcon @click="count--">
       <template #icon>
-        <IconMinus />
+        <IconMinus class="fill-orange hover:fill-[#FFAB6A] transition-all" />
       </template>
     </ButtonIcon>
     <div class="font-bold">{{ count }}</div>
     <ButtonIcon @click="count++">
       <template #icon>
-        <IconPlus />
+        <IconPlus class="fill-orange hover:fill-[#FFAB6A] transition-all" />
       </template>
     </ButtonIcon>
   </div>

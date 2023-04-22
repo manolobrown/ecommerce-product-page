@@ -11,6 +11,6 @@
         id="b"
       />
     </defs>
-    <use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#b" />
+    <use fill-rule="nonzero" xlink:href="#b" />
   </svg>
 </template>

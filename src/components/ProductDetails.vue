@@ -7,11 +7,13 @@ import ProductQty from "./ProductQty.vue";
 <template>
   <div class="container mx-auto px-6 py-6">
     <div
-      class="uppercase text-[#FF7E1B] font-bold text-xs tracking-[1.85px] mb-4"
+      class="uppercase text-[#FF7E1B] font-bold text-xs tracking-[1.85px] mb-4 lg:mb-4"
     >
       Sneaker Company
     </div>
-    <h1 class="font-bold text-[#1D2026] text-[28px] leading-8 mb-4">
+    <h1
+      class="font-bold text-[#1D2026] text-[28px] leading-8 mb-4 lg:text-[44px] lg:leading-[48px]"
+    >
       Fall Limited Edition Sneakers
     </h1>
     <p class="text-[#69707D] mb-6">
@@ -20,13 +22,13 @@ import ProductQty from "./ProductQty.vue";
       weather can offer.
     </p>
 
-    <ProductPrice class="mb-6" />
+    <ProductPrice class="mb-6 lg:mb-8" />
 
     <div class="md:flex md:items-center md:gap-x-5">
-      <ProductQty class="mb-4 md:mb-0" />
+      <ProductQty class="mb-4 md:mb-0 lg:max-w-[157px] lg:w-full" />
 
       <ButtonIcon
-        class="bg-[#FF7E1B] flex items-center justify-center w-full rounded-[10px] text-white font-bold gap-4 p-5"
+        class="bg-[#FF7E1B] flex items-center justify-center w-full rounded-[10px] text-white font-bold gap-4 p-5 transition-all hover:bg-[#FFAB6A]"
       >
         <template #icon>
           <IconCart class="fill-white" />

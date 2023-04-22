@@ -23,7 +23,7 @@ const products = [
     <li class="flex-[0_0_100%]" v-for="product in products">
       <a href="#"
         ><img
-          class="max-h-[300px] object-cover object-center w-full"
+          class="max-h-[300px] md:max-h-[445px] md:max-w-[445px] md:rounded-2xl object-cover object-center w-full"
           :src="product.image"
           alt=""
       /></a>

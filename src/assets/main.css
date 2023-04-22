@@ -11,5 +11,6 @@
   }
   .container {
     @apply sm:px-4;
+    @apply max-w-[1110px] !important;
   }
 }
